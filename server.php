@@ -22,14 +22,14 @@
 
 // ─── YOUR CREDENTIALS (fill these in) ────────────────────────────────────────
 define('PAYNOW_ID',         '23587');
-define('PAYNOW_KEY',        ' c70ad8fc-ed89-4473-b3cb-300d94cad56a');
+define('PAYNOW_KEY',        'c70ad8fc-ed89-4473-b3cb-300d94cad56a'); // FIXED: removed leading space
 define('PAYNOW_RESULT_URL', 'https://servver.onrender.com/server.php?action=result');
 define('PAYNOW_RETURN_URL', 'https://fartfartai.netlify.app/index.html');
 define('PAYNOW_AUTH_EMAIL', '28dollarboot@gmail.com');
 
 // ─── SUPABASE (for referral discount check) ───────────────────────────────────
 define('SUPABASE_URL',      'https://cjwoulzegfjunhurfzjb.supabase.co');
-define('SUPABASE_SERVICE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqd291bHplZ2ZqdW5odXJmempiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NTcyNjMyNywiZXhwIjoyMDkxMzAyMzI3fQ.9r-evb7ihLTrLLEF7Z3NCXJ_IYskOc5YXvMIKn80G6k'); // Settings → API → service_role key
+define('SUPABASE_SERVICE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqd291bHplZ2ZqdW5odXJmempiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NTcyNjMyNywiZXhwIjoyMDkxMzAyMzI3fQ.9r-evb7ihLTrLLEF7Z3NCXJ_IYskOc5YXvMIKn80G6k');
 // ─────────────────────────────────────────────────────────────────────────────
 
 define('PRICE_FULL',       '1.25');
