@@ -23,7 +23,7 @@
 // ─── YOUR CREDENTIALS (fill these in) ────────────────────────────────────────
 define('PAYNOW_ID',         '23587');
 define('PAYNOW_KEY',        ' c70ad8fc-ed89-4473-b3cb-300d94cad56a');
-define('PAYNOW_RESULT_URL', 'https://YOUR-RENDER-URL.onrender.com/server.php?action=result');
+define('PAYNOW_RESULT_URL', 'https://servver.onrender.com/server.php?action=result');
 define('PAYNOW_RETURN_URL', 'https://fartfartai.netlify.app/index.html');
 define('PAYNOW_AUTH_EMAIL', '28dollarboot@gmail.com');
 
